@@ -617,6 +617,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zte/nx510j/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
+    vendor/zte/nx510j/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zte/nx510j/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zte/nx510j/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zte/nx510j/proprietary/bin/radish:system/bin/radish \
