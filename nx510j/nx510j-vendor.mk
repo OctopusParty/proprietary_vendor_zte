@@ -18,7 +18,6 @@
 PRODUCT_PACKAGES += \
     TimeService \
     libtime_genoff \
-    com.qualcomm.location \
     libloc_api_v02 \
     libloc_ds_api
 
