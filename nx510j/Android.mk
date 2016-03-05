@@ -54,17 +54,6 @@ LOCAL_PROPRIETARY_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.location
-LOCAL_MODULE_OWNER := zte
-LOCAL_SRC_FILES := proprietary/priv-app/com.qualcomm.location/com.qualcomm.location.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libloc_api_v02
 LOCAL_MODULE_OWNER := zte
 LOCAL_SRC_FILES_64 := proprietary/lib64/libloc_api_v02.so
