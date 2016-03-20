@@ -16,9 +16,21 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
-    TimeService \
+    shutdownlistener \
+    TimeService
+
+PRODUCT_PACKAGES += \
+    qcnvitems \
+    qcrilhook
+
+PRODUCT_PACKAGES += \
     libtime_genoff \
+
+PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
+
+PRODUCT_PACKAGES += \
+    libmm-disp-apis
 
 $(call inherit-product, vendor/zte/nx510j/nx510j-vendor-blobs.mk)
