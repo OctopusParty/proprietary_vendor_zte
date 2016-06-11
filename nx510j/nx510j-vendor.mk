@@ -16,6 +16,10 @@
 
 # Pick up overlay for features that depend on non-open-source files
 PRODUCT_PACKAGES += \
+    CNEService \
+    com.qualcomm.location \
+    dpmserviceapp \
+    QtiTetherService \
     shutdownlistener \
     TimeService
 
@@ -24,13 +28,16 @@ PRODUCT_PACKAGES += \
     qcrilhook
 
 PRODUCT_PACKAGES += \
-    libtime_genoff \
-
-PRODUCT_PACKAGES += \
     libloc_api_v02 \
     libloc_ds_api
 
 PRODUCT_PACKAGES += \
+    libtime_genoff
+
+PRODUCT_PACKAGES += \
     libmm-disp-apis
+
+PRODUCT_PACKAGES += \
+    libthermalclient
 
 $(call inherit-product, vendor/zte/nx510j/nx510j-vendor-blobs.mk)
