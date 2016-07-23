@@ -73,7 +73,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/nx510j/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zte/nx510j/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zte/nx510j/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
-    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0104_Generic_I2C_NCD_Unsigned_configdata.ncd \
+    vendor/zte/nx510j/proprietary/vendor/firmware/BCM20795A1_001.002.012.0003.0112_Generic_I2C_NCD_Unsigned_configdata.ncd:system/vendor/firmware/BCM20795A1_001.002.012.0003.0112_Generic_I2C_NCD_Unsigned_configdata.ncd \
     vendor/zte/nx510j/proprietary/vendor/lib64/hw/activity_recognition.msm8994.so:system/vendor/lib64/hw/activity_recognition.msm8994.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libconfigdb.so:system/vendor/lib64/libconfigdb.so \
     vendor/zte/nx510j/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
